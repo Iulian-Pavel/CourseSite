@@ -1,0 +1,26 @@
+@import "../../_general";
+
+.user-panel {
+    @include displayFlex(flex, space-between, center, row);
+    width: 100%;
+    padding: 2em;
+    font-family: $textFont;
+    //background: radial-gradient(1000px at 10% 3.4%, rgb(0, 255, 0) 0%, rgb(255, 255, 255) 90%);
+    .left-side {
+        @include displayFlex(flex, space-evenly, center, row);
+        /*
+        flex wrap in this case will make the elements on the left side
+        behave accrodingly to flex
+        */
+        flex-wrap: wrap;
+        width: 50%;
+        .default-photo {
+            width: 125px;
+            height: auto;
+        }
+        .user-info {
+            color: rgb(255, 255, 255);
+            text-shadow: 1px 1px black;
+        }
+    }
+}

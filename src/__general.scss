@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+$textFont: 'Roboto', sans-serif;
+$navFont: 'Montserrat', sans-serif;
+
+
+body {
+    background-color: rgb(255,240,229);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin displayFlex($display, $jst-content, $algn-content, $flex-d) {
+    display: $display;
+    justify-content: $jst-content;
+    align-content: $algn-content;
+    flex-direction: $flex-d;
+}
