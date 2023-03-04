@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import "./CoursePanel.scss";
 
 function CoursePanel() {
   return (
-    <div>CoursePanel</div>
+    <>
+      <div>Course Panel</div>
+    </>
   )
 }
 
