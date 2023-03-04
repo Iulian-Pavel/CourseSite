@@ -4,7 +4,7 @@
     @include displayFlex(flex, space-between, center, row);
     width: 100%;
     padding: 2em;
-    font-family: $textFont;
+    font-family: $mainFont;
     //background: radial-gradient(1000px at 10% 3.4%, rgb(0, 255, 0) 0%, rgb(255, 255, 255) 90%);
     .left-side {
         @include displayFlex(flex, space-evenly, center, row);
@@ -19,8 +19,7 @@
             height: auto;
         }
         .user-info {
-            color: rgb(255, 255, 255);
-            text-shadow: 1px 1px black;
+            color: #000;
         }
     }
 }
